@@ -7,23 +7,31 @@ assignees: ''
 
 ---
 
-**Describe the bug**
+## Describe the bug
+
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+## To Reproduce
+
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**File**
+## File
+
 Input File (XML OR AXML)
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Environment
 
-**Additional context**
+Please complete the following information:
+
+- OS: [e.g. iOS]
+- Browser [e.g. chrome, safari]
+- Version [e.g. 22]
+
+## Additional context
+
 Add any other context about the problem here.

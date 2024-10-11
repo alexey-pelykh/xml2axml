@@ -2,28 +2,23 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
     id("java")
-    id("com.github.johnrengelman.shadow") version ("7.1.2")
+    id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-buildscript {
-
-    repositories {
-        mavenCentral()
-        gradlePluginPortal()
-    }
+repositories {
+    mavenCentral()
 }
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(8))
+        languageVersion.set(JavaLanguageVersion.of(21))
     }
 }
 
 dependencies {
-
-    implementation(libs.kxml)
-    implementation(libs.apache.commons.lang)
-    implementation(libs.apache.commons.io)
+    implementation("net.sf.kxml:kxml2:2.3.0")
+    implementation("org.apache.commons:commons-lang3:3.12.0")
+    implementation("commons-io:commons-io:1.4")
 }
 
 tasks {
